@@ -24,6 +24,15 @@ Neste caso de uso iremos instrumentar uma aplicação em java exportando trace p
 
 ![Arquitetura do caso de uso](./final-arch.png)
 
+Este repositório contém os seguintes arquivos:
+
+- **first-collector.yaml**: Configuração inicial do OpenTelemetry Collector para coletar traces.
+- **first-collector-updated.yaml**: Configuração atualizada do OpenTelemetry Collector para exportar métricas para o Prometheus.
+- **first-instrumentation.yaml**: Configuração da instrumentação do OpenTelemetry para a aplicação.
+- **first-pod-sending-span.yaml**: Configuração do pod da aplicação Java que envia spans.
+- **grafana.yaml**: Configuração do Grafana para visualizar as métricas coletadas.
+- **prometheus.yaml**: Configuração do Prometheus para coletar métricas do OpenTelemetry Collector.
+
 
 ### Requisitos
 
